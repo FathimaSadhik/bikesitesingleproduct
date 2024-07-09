@@ -1,0 +1,265 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family: "Roboto", sans-serif;
+
+}
+#container
+{
+    width:100%;
+    height:100vh;
+}
+img{
+    width:100%;
+}
+#img-sect2bike:hover{
+    border: 2px solid black;
+
+}
+
+#a-sect1:hover{
+    border:1px solid black;
+    border-radius:50px;
+    padding:5px 10px;
+}
+#a-sect2:hover{
+    border:1px solid black;
+    border-radius:50px;
+    padding:10px 6px;
+}
+#sect3-img{
+    height:810px;
+}
+#img-sect4{
+    height:810px;
+}
+#img-sect5{
+    height:810px;
+}
+#img-sect6{
+    height:810px;
+}
+#img-sect7{
+    height:810px;
+}
+#img-led8{
+    height:810px;
+}
+#section8{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-content: center;
+    /* margin-top:100px; */
+    padding-left:200px;
+    padding-right:200px;
+    padding-top:80px;
+    padding-bottom:120px;
+    gap: 100px;
+    background-color: rgb(37, 36, 36);
+    height:143px;
+}
+.section8-content{
+    text-align: justify;
+    /* border: 1px solid black; */
+    width:720px;
+    height:63.39px;
+}
+.sec8-button{
+    /* border:1px solid black; */
+    width:200px;
+    height:50px;
+}
+#button-section8{
+    width:190px;
+}
+#section9{
+    width:100%;
+    background-color: black;
+    height:480px;
+    color:whitesmoke;
+    /* padding:10px; */
+    /* position: relative; */
+}
+.fa-i{
+    color:black;
+    border:1px solid white;
+}
+#button-sect9{
+    width:469px;
+    height:51px;
+    background-color: black;
+    color:whitesmoke;
+    border-radius:60px;
+    position: absolute;
+    border-color: white;
+}
+#button1-sect9{
+    width:150px;
+    height:51px;
+    background-color: white;
+    color:black;
+    border-radius: 60px;
+    margin-left:320px;
+    position: absolute;
+    /* float:right; */
+}
+/* .sect9-but2{
+    margin-right:100px;
+} */
+.flex-button{
+    display:flex;
+    position: relative;
+}
+#section9-h5{
+    padding-top:40px;
+}
+.btn1 {
+    background-color:white;
+    border:1px solid black;
+    border-radius:50px;
+    color:black;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn1:hover {
+    background-color:black;
+    color:whitesmoke;
+  }
+.fa-arrow{
+    float:right;
+    padding:20px;
+    border:1px solid white;
+    background-color: white;
+    color:rgb(14, 13, 13);
+    border-radius:50px;
+    margin-right:30px;
+    margin-top:20px;
+
+    /* margin-bottom:150px; */
+}
+@media(max-width:768px){
+    #sect3-content{
+        margin-top:10px;
+        padding-left:20px;
+         padding-right:20px;
+        /* width:250px; */
+        /* height:50px; */
+
+    }
+    #sect3-img{
+        height:300px;
+        margin-bottom: 20px;
+    }
+    #img-sect4{
+        height:300px;
+        margin-bottom: 20px;
+    }
+    
+    #img-sect5{
+        height:300px;
+        margin-bottom: 20px;
+    }
+    
+    #img-sect6{
+        height:300px;
+        margin-bottom: 20px;
+    
+    }
+    #img-sect7{
+        height:300px;
+        margin-bottom: 20px;
+    
+    }
+    #img-led8{
+        height:300px;
+        margin-bottom: 20px;
+    
+    }
+    .btn1 {
+        background-color:white;
+        border:1px solid black;
+        border-radius:50px;
+        color:black;
+        padding: 8px 15px;
+        cursor: pointer;
+        font-size: 20px;
+      }
+    #section8{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        justify-content: center;
+        /* margin-top:100px; */
+        padding-left:10px;
+        padding-right:10px;
+        padding-top:10px;
+        padding-bottom:10px;
+        gap:5px;
+        background-color: rgb(37, 36, 36);
+        height:350px;
+    }
+    .section8-content{
+        text-align: justify;
+        /* border: 1px solid black; */
+        width:250px;
+        height:23.39px;
+    }
+    .sec8-button{
+        /* border:1px solid black; */
+        width:100px;
+        height:40px;
+        margin-top:80px;
+    }
+    #button-section8{
+        width:190px;
+        border-radius:60px;
+
+    }
+    #section9{
+        /* margin-top:100px; */
+        width:100%;
+        background-color: black;
+        height:1300px;
+        color:whitesmoke;
+        /* padding:10px; */
+        /* position: relative; */
+    }
+    #button-sect9{
+        width:250px;
+        height:40px;
+        background-color: black;
+        color:whitesmoke;
+        border-radius:60px;
+        position: absolute;
+        border-color: white;
+    }
+    #button1-sect9{
+        width:100px;
+        height:40px;
+        background-color: white;
+        color:black;
+        border-radius: 60px;
+        margin-left:150px;
+        position: absolute;
+        /* float:right; */
+    }
+    .flex-button{
+        display:flex;
+        position: relative;
+    }
+    /* #section9-h5{
+        padding-top:40px;
+    } */
+    /* .header{
+        width:360px; 
+       height:400px;
+       background-image:url('./Hero\ Section.png');
+       background-size: cover;
+       /* background-position:bottom; */
+       /* height: 100vh; */
+   }   
+    
